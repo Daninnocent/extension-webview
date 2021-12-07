@@ -1,11 +1,8 @@
 package extension.webview;
 
 import haxe.Json;
-#if (openfl < "4.0.0")
-import openfl.utils.JNI;
-#else
 import lime.system.JNI;
-#end
+
 	
 class WebView  {
 
