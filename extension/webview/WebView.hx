@@ -70,7 +70,7 @@ class WebView  {
 		html:String, 
 		floating:Bool=false,
 		?useWideViewPort :Bool = false,						// Android only
-		?mediaPlaybackRequiresUserGesture :Bool = true		// Android only
+		?mediaPlaybackRequiresUserGesture :Bool = false		// Android only
 	) :Void {
 		init();
 		#if android
