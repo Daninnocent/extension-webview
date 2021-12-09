@@ -38,7 +38,7 @@ class WebView  {
 		?urlWhitelist :Array<String>,
 		?urlBlacklist :Array<String>,
 		?useWideViewPort :Bool = false,						// Android only
-		?mediaPlaybackRequiresUserGesture :Bool = true		// Android only
+		?mediaPlaybackRequiresUserGesture :Bool = false		// Android only
 	) :Void {
 		init();
 		if(urlWhitelist!=null) urlWhitelist.push(url);
